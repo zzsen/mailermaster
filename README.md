@@ -3,10 +3,10 @@
 We can use MailerMaster to **send a qq mail**
 
 ## Preparation In Advance
-1.Before you use MailerMaster , you should have a qq(Of course most of us have one).
-2.Access [QQ邮箱](https://mail.qq.com),then sign in.
-3.Get your Authorization Code(Setting - **POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务**)
-4.Use your account and Authorization Code when creating your Transport
+1. Before you use MailerMaster , you should have a qq(Of course most of us have one).
+2. Access [QQ邮箱](https://mail.qq.com),then sign in.
+3. Get your Authorization Code(Setting - **POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务**)
+4. Use your account and Authorization Code when creating your Transport
 
 ```javascript
   let transporter = nodemailer.createTransport({
