@@ -6,13 +6,13 @@ nodemailer.createTestAccount((err,account)=>{
     port:'587',
     secure:false,
     auth:{
-      user:'291136654@qq.com',
+      user:'*********@qq.com',
       pass:'ybdwfwupgkjqbhda'
     }
   })
   let mailOptions ={
-    from:'291136654@qq.com',
-    to:'296099296@qq.com',
+    from:'*********@qq.com',
+    to:'*********@qq.com',
     subject:'hello',
     text:'hi~',
     html:'<b>hello</b>'
