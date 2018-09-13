@@ -37,3 +37,5 @@ We can use MailerMaster to **send a qq mail**
     console.log('Preview URL: %s',nodemailer.getTestMessageUrl(info))
   })
 ```
+
+[Chinese Doc](https://blog.csdn.net/zzsan/article/details/79990138)
